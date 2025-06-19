@@ -29,7 +29,7 @@
 8. Use a lambda function in Python to sort a list of tuples based on the second element of each tuple.
 9. Write a Python program that uses `map()` to convert a list of temperatures from Celsius to Fahrenheit.
 10. Create a Python program that uses `filter()` to remove all the vowels from a given string.
-11. Write a Python program, which returns a list with 2-tuples. Each tuple consists of the order number and the product of the price per item and the quantity. The product should be increased by 10€ if the value of the order is smaller than 100€. Use `lambda` and `map()`.
+11. Imagine an accounting routine used in a book shop. It works on a list with sublists, which look like this:
     
 | Order Number | Book Title and Author                   | Quantity | Price per Item |
 |--------------|-----------------------------------------|----------|----------------|
@@ -37,4 +37,6 @@
 | 98762        | *Programming Python*, Mark Lutz         | 5        | $56.80         |
 | 77226        | *Head First Python*, Paul Barry         | 3        | $32.95         |
 | 88112        | *Einführung in Python3*, Bernd Klein    | 3        | $24.99         |
+
+Write a Python program, which returns a list with 2-tuples. Each tuple consists of the order number and the product of the price per item and the quantity. The product should be increased by 10€ if the value of the order is smaller than 100€. Use `lambda` and `map()`
 
